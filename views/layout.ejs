@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Amazoo, Inc.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="The Amazon Clone" content="">
+    <meta name="Bong V." content="">
+    <!-- 1st option for CSS
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- 2nd option for CSS -->
+    <style type="text/css">
+      body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <% include ./navbar/header %>
+
+    <div class="container">
+
+    <%- body -%>
+
+    </div> <!-- /container -->
+
+    <% include ./navbar/footer %>
+
+    </body>
+</html>
